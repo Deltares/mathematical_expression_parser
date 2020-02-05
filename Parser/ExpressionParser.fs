@@ -13,12 +13,12 @@
 /// * An <see cref="InfixFunctionType"/> is defined as:
 ///       expression1 <infix operator> expression 2
 /// </summary>
-namespace MathematicalExpressionParser.Parser.ExpressionParser
+namespace MathematicalExpressionParser.Core.ExpressionParser
 
 open FParsec
 open FParsec.Pipes
 
-open MathematicalExpressionParser.Parser.ExpressionTree
+open MathematicalExpressionParser.Core.ExpressionTree
 
 module public Parser =
     let private ws = spaces

@@ -7,12 +7,12 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("Parser")>]
-[<assembly: AssemblyDescription("")>]
+[<assembly: AssemblyTitle("MathematicalExpressionParser.Core")>]
+[<assembly: AssemblyDescription("The MathematicalExpressionParser.Core library is used to parse mathematical-expression strings to symbolic-expression trees.")>]
 [<assembly: AssemblyConfiguration("")>]
-[<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("Parser")>]
-[<assembly: AssemblyCopyright("Copyright ©  2020")>]
+[<assembly: AssemblyCompany("Deltares")>]
+[<assembly: AssemblyProduct("MathematicalExpressionParser.Core")>]
+[<assembly: AssemblyCopyright("Copyright © Deltares 2020")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 
@@ -38,7 +38,7 @@ open System.Runtime.InteropServices
 [<assembly: AssemblyFileVersion("1.0.0.0")>]
 
 // Internals visible to:
-[<assembly: InternalsVisibleTo("Parser.Test")>]
+[<assembly: InternalsVisibleTo("MathematicalExpressionParser.Core.Test")>]
 
 do
     ()

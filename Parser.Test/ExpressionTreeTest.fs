@@ -1,6 +1,6 @@
-﻿module MathematicalExpressionParser.Parser.ExpressionTreeTest
+﻿module MathematicalExpressionParser.Core.ExpressionTreeTest
 
-open MathematicalExpressionParser.Parser.ExpressionTree
+open MathematicalExpressionParser.Core.ExpressionTree
 
 open FsUnit
 open NUnit.Framework

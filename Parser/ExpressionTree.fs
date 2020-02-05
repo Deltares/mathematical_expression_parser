@@ -1,4 +1,4 @@
-﻿namespace MathematicalExpressionParser.Parser.ExpressionTree
+﻿namespace MathematicalExpressionParser.Core.ExpressionTree
 
 /// <summary>
 /// <see cref="InfixFunctionType"/> defines the possible infix functions.

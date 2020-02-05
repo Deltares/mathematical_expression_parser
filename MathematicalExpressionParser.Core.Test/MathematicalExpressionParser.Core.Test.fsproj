@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Parser\MathematicalExpressionParser.Core.fsproj" />
+    <ProjectReference Include="..\MathematicalExpressionParser.Core\MathematicalExpressionParser.Core.fsproj" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/Deltares/mathematical_expression_parser/blob/master/LICENSE</licenseUrl>
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/Deltares/mathematical_expression_parser</projectUrl>
     <iconUrl>http://bit.ly/192jI3c</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

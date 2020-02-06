@@ -1,4 +1,4 @@
-﻿namespace Parser.AssemblyInfo
+﻿namespace MathematicalExpressionParser.Core.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices

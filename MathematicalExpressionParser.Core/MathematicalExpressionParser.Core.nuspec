@@ -6,12 +6,12 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <license type="expression">MIT</license>
+    <license type="expression">GPL-3.0-or-later</license>
     <projectUrl>https://github.com/Deltares/mathematical_expression_parser</projectUrl>
     <iconUrl>http://bit.ly/192jI3c</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial release containing basic support for parsing mathematical expressions to their corresponding symbolic expressions.</releaseNotes>
+    <releaseNotes>Updated licese to GPL.</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Symbolic Expression Mathematics Parser</tags>
   </metadata>

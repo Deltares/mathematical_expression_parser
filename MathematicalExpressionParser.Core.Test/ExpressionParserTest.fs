@@ -1,4 +1,4 @@
-// Copyright 2020 © Deltares
+// Copyright 2020 ï¿½ Deltares
 // 
 // This file is part of the Mathematical Expression Parser.
 // 
@@ -161,4 +161,6 @@ type ParseExpressionTest() =
     [<TestCase("A * ( B")>]
     [<TestCase("A * B )")>]
     member x.``parseExpression: Failure to parse`` (inputString : string) =
-        ( Parser.parseExpression inputString ) |> should be (ofCase<@ Failure @>)
+        match Parser.parseExpression inputString with
+        | Failure _ -> Assert.Pass()
+        | Success _ -> Assert.Fail("Expected Failure but got Success")

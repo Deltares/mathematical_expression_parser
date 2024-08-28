@@ -1,4 +1,4 @@
-// Copyright 2020 © Deltares
+// Copyright 2024 © Deltares
 // 
 // This file is part of the Mathematical Expression Parser.
 // 

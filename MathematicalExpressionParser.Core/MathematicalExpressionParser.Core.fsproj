@@ -12,7 +12,7 @@
     <Description>The MathematicalExpressionParser.Core library is used to parse mathematical-expression strings to symbolic-expression trees.</Description>
     <Company>Deltares</Company>
     <Product>MathematicalExpressionParser.Core</Product>
-    <Copyright>Copyright © Deltares 2024</Copyright>
+    <Copyright>Copyright © Deltares $([System.DateTime]::Now.Year)</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
